@@ -9,6 +9,7 @@ sudo apt git https://gitlab.com/nvidia/container-images/cuda/blob/master/dist/12
 reboot
 
 docker login nvcr.io
+try docker login without nvcr.io
 
 
 
