@@ -9,3 +9,11 @@ sudo apt git https://gitlab.com/nvidia/container-images/cuda/blob/master/dist/12
 reboot
 
 docker login nvcr.io
+
+
+
+
+
+docker pull nvidia/cuda:12.8.0-base-ubuntu22.04
+
+docker run --rm --gpus all nvidia/cuda:12.8.0-base-ubuntu22.04 nvidia-smi
